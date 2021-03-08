@@ -1,0 +1,68 @@
+        .table {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .bg-light {
+            background-color: white !important;
+            /* -webkit-box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75); */
+        }
+        
+        .navbar-light .navbar-brand {
+            color: rgba(0, 0, 0, .9);
+            font-weight: 700;
+        }
+        
+        .navbar-light .navbar-brand img {
+            width: 50%;
+            position: relative;
+        }
+        
+        label {
+            color: #007bff;
+            font-weight: 500;
+        }
+        
+        form {
+            padding: 3%;
+            -webkit-box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.75);
+        }
+        
+        .nav-link {
+            background-color: whitesmoke;
+            margin: 1%;
+            color: red !important;
+            font-weight: 300;
+            border-radius: 0.25em;
+            border: 1px solid yellowgreen;
+        }
+        
+        .nav-item :hover {
+            background: yellowgreen !important;
+            color: blue !important;
+        }
+        
+        .error,
+        field-validation-error {
+            color: red;
+            font-weight: normal;
+            font-style: oblique;
+            font-size: 12px;
+        }
+        
+        .error-dinamico,
+        field-validation-error {
+            color: red;
+            font-weight: normal;
+            font-style: oblique;
+            font-size: 12px;
+        }
+        
+        .field-validation-error {
+            color: red;
+        }
